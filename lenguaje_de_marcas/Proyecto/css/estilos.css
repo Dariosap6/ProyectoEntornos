@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: gainsboro;
+  color: black;
+  padding: 20px;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: dimgray;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: gray;
+}
+
+#carrusel {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+#carrusel .evento {
+  min-width: 300px;
+  background: lightgray;
+  padding: 10px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+#carrusel .evento img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+table th, table td {
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: black;
+  color: white;
+}
+
+.imagen-detalle {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+main article h2 {
+  text-align: center;
+}
+
